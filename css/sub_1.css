@@ -1,21 +1,22 @@
 @charset "utf-8";
 
-section {width:3000px; height:5000px; margin:0 auto; background-color:#fff; }
+section {width:100%; height:5000px; margin:0 auto; background-color:#fff; }
 
 * {box-sizing: border-box;}
 
    body {font-family: "S-CoreDream-4Regular"; font-size:15px; color:#000;}
 
-   #sub {width: 3000px; height:600px; margin:0 auto; border:3px solid #ededed; box-sizing:border-box; position:relative;}
+   #sub {width: 1190px; height:600px; margin:0 auto; border:3px solid #ededed; box-sizing:border-box; position:relative;}
 
    #product {width: 500px; height: 500px; background-color: pink; position:absolute;
-    top:70px; left:30px; }
+    top:50px; left:30px; }
  
    table{width: 500px; border-top:3px solid #e9e9e9; border-bottom:1px solid #e9e9e9; position:absolute; top:70px; right:30px; float:left;}
 
 
-   h5 {font-family: "S-CoreDream-4Regular"; font-size:15px; color:#000;}
-   h3 {font-family: "S-CoreDream-4Regular"; font-size:15px; color:#000;}
+
+   .sub_t h5 {font-family: "S-CoreDream-4Regular"; font-size:15px; color:#000;}
+   .sub_t h3 {font-family: "S-CoreDream-4Regular"; font-size:15px; color:#000;}
 
    td {padding:6px 15px; float:left;}
    td:first-cild {width:100px; float:left;}
