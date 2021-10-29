@@ -16,7 +16,7 @@
 
 
   
-        section { width: 1190px; height: 4980px; margin: 0 auto;}
+        section { width: 1190px; height: 5150px; margin: 0 auto;}
         
 
  
@@ -44,7 +44,7 @@
         .p_box h3{ font-size:14px; font-family: "S-CoreDream-4Regular"; margin: -75px 30px 0 43px; float:left;     color:#e66456; letter-spacing:1px; }
         .p_box h3:hover { color:#000; cursor:pointer; transition: 0.5s;} 
     
-
+ 
         #new {width: 1190px; background-color: #d0d0d0; height:640px; margin : 0 auto; padding-top: 75px;}
         .n_box{width: 820px; height: 390px;  background-color:#fff;  margin : 0 auto; padding:26px; position: relative;}
         .n_box :hover {opacity:0.9; cursor:pointer;}
@@ -56,7 +56,6 @@
 
         .n_box h3 {font-size:16px; font-family: "S-CoreDream-4Regular"; margin: -18px -5px 20px 220px; float:right; color:#e66456; letter-spacing:1px; }
         .n_box h3:hover { color:#000; cursor:pointer; transition: 0.5s;} 
-     
 
        
  
@@ -81,7 +80,7 @@
 
      
 
-        #mix2mix_box{width: 1190px; height: 800px; background-color: #d0d0d0; padding: 175px;}
+        #mix2mix_box{width: 1190px; height: 920px; background-color: #d0d0d0; padding: 175px;}
         .mix2mix { width: 397px; height: 552px; background-color: #fff; border: 1px solid #eee; padding: 30px; margin: 10px; display: inline-block; box-shadow: 10px 10px #c1bfc0; }  
 
         .mix2mix img {width: 289px; height: 235px; margin-top:24px; }
@@ -108,8 +107,7 @@
         #XEXY_PICK {width: 1190px; height: 550px; background-color:yellow;
                     margin : 0 auto; }
 
-        .XEXY_PICK_box {width: 1190px; height: 550px; background-color:#d0d0d0; position:relative;}     
-        #xexy_pick_box:hover {opacity:0.7; cursor:pointer;} 
+        .XEXY_PICK_box {width: 1190px; height: 550px; background-color:#d0d0d0; position:relative;}      
 
         .XEXY_PICK_box h1 {font-size:23px; font-family: "S-CoreDream-2ExtraLight";  
                         color:#FFF;  text-align:center; position: absolute; 
@@ -126,8 +124,9 @@
                     bottom:200px;  left:0; right:0; margin:0 auto;}
 
 
-          #best_product {width: 1190px; height: 800px; margin:0 auto; background-color: #d0d0d0;}
-          #best_product h1{font-family: "HANBatangB"; font-weight: bold; font-size:38px; text-align:center;  color:#000; text-transform:uppercase; padding:8px; padding-top: 55px;}
+          #best_product {width: 1190px; height: 890px; margin:0 auto; background-color: #d0d0d0;}
+          #best_product h1{font-family: "HANBatangB"; font-weight: bold; font-size:38px; text-align:center;  color:#000;
+             text-transform:uppercase; padding:8px; padding-top: 100px;}
           #best_product p{text-align:center; font-size:19px; font-family: "S-CoreDream-5Medium";}
          .best_box {width: 268px; height: 446px; float:left; background-color:#fff;}
          .best_box img {width: 252px; height: 321px; margin:8px -40px 80px 8px;}
