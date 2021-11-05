@@ -3,25 +3,7 @@
 section {width:100%; height:5000px; margin:0 auto; background-color:#fff; }
 
 
-  * {box-sizing:border-box;}
-/* 
-  body {font-family: "S-CoreDream-4Regular"; font-size:15px; color:#000;}
 
-
-  #sub_product {width: 590; height: 600; float:right; background-color: #eee;
-                margin:-500px 500px 0 50px;}
-  #sub_product_box {width: 590; height: 600; margin: 0 auto;  float:right; color:pink; position:relative;padding-top:0px;}
-  #sub_product_box h1 {text-align:left; font-family: "S-CoreDream-4Regular";
-  font-size:13px; color:#000;}
-  #sub_product_box h2 {text-align:left; font-family: "S-CoreDream-4Regular";
-  font-size:18px; color:#000;}
-
-  #sub_product_box h3{text-align:left; font-family: "S-CoreDream-4Regular";
-    font-size:14px; color:#000;}
-
-
-  #sub_product_box h4{text-align:left; font-family: "S-CoreDream-4Regular";
-   font-size:12px; color:#000;} */
 
 
 * {margin :0; box-sizing:border-box; text-decoration: none;}
@@ -30,9 +12,9 @@ table, tr, th, td {margin:0; padding:0;}
 
 ul > li > a{color:#000;}
 
-#inquiry {width:1200px; height: 400px; margin:100px auto;}
-#inquiry ul {width: 1200px; height: 50px;margin:40px auto 0px;}
-#inquiry ul > li {width: 300px; height: 50px;background-color: #eee; float:left; text-align:center;
+#inquiry {width:1190px; height: 400px; margin:100px auto;}
+#inquiry ul {width: 1190px; height: 50px;margin:40px auto 0px;}
+#inquiry ul > li {width: 290px; height: 50px;background-color: #eee; float:left; text-align:center;
                  padding:15px 0 0 0px; border:1px solid #ddd; border-bottom:1px solid #000; font-size:13px;}
 #inquiry > ul >li:last-child {background-color: #fff; border:1px solid #000; border-bottom:none;}
 

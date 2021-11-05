@@ -9,7 +9,22 @@
         <link rel="stylesheet" href="css/common.css">
         <link rel="stylesheet" href="css/sub_2.css">
 
-     
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+
+        <script>
+          $(document).ready(function () {
+            $("#img_click li:first-child").click(function () {
+              $("#cimg").attr("src", "img/sub_slim_fit_640.jpg");
+            });
+            $("#img_click li:nth-child(2)").click(function () {
+              $("#cimg").attr("src", "img/sub_slim_fit_2.jpg");
+            });
+            $("#img_click li:nth-child(3)").click(function () {
+              $("#cimg").attr("src", "img/sub_slim_fit_3.jpg");
+            });
+          });
+        </script>
+          
 
     </head>
     <body>
@@ -55,7 +70,14 @@
         
             <div id="sub_product">
               <div class="sub_box">
-                <img src="./img/sub_slim_fit_640.jpg" ale="슬림 핏 집업 자켓">
+                <img src="./img/sub_slim_fit_640.jpg" alt="슬림 핏 집업 자켓" id="cimg">
+                  <div id="img_click">
+                    <ul>
+                     <li><img src="img/sub_slim_fit_640.jpg" alt="슬림 핏 집업 자켓1"></li>
+                     <li><img src="img/sub_slim_fit_2.jpg" alt="슬림 핏 집업 자켓2"></li>
+                     <li><img src="img/sub_slim_fit_3.jpg" alt="슬림 핏 집업 자켓3"></li>
+                   </ul>
+                 </div>
               </div>
         
               <div class="sub_box">
@@ -155,11 +177,7 @@
                 </div>
         
         
-              </div>
-        
-        
-        
-        
+             </div>
             </div>
 
             
@@ -178,16 +196,24 @@
             <p>69,000원</p>
          </div>
         </div>
+      </div>
 
-         </div>
+        <div id="detail">
+          <ul>
+           <li>상품상세정보</li>
+           <li><a href="#shipping">배송안내</a></li>
+           <li><a href="#review">상품후기</a></li>
+           <li><a href="#inquiry">상품문의</a></li>
+          </ul>
 
+
+
+
+
+        </div>
+ 
+    </div>
         
-          </div>
-        
-        
-          </div>
-        
-          </div>
         
         </section>
 
