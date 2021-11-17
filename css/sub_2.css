@@ -1,11 +1,11 @@
 @charset "utf-8";
 
-section {width:100%; height:27200px; margin:0 auto; background-color:#fff; }
+section {width:100%; height:26360px; margin:0 auto; background-color:#fff; }
 
 #sub {width:1190px; height:auto; margin:0 auto; padding-top: 50px;}
 
 
-  #sub_product {width: 1190px; height:860px; margin: 0 auto; background-color: #fff; border:none; }
+#sub_product {width: 1190px; height:860px; margin: 0 auto; background-color: #fff; border:none; }
    
   
   
@@ -14,11 +14,11 @@ section {width:100%; height:27200px; margin:0 auto; background-color:#fff; }
   .sub_box {width: 590px; height: 860px; }
   .sub_box:first-of-type {float:left; margin:0px 0 0 0px; background-color: #fff;}
   .sub_box:first-of-type img {width:570px; height:743px; }
-    #img_click {width:100%; height:110px; background-color:none;}
-    .w1 {width:400px; height:300px;}
-    #img_click img {width:90px; height:90px;}
-    .sub_box li {float:left; margin:5px 10px 0 0;}
-   .sub_box li:hover {cursor:pointer; opacity:0.8;}
+  #img_click {width:100%; height:110px; background-color:none;}
+  .w1 {width:400px; height:300px;}
+  #img_click img {width:90px; height:90px;}
+  .sub_box li {float:left; margin:5px 10px 0 0;}
+  .sub_box li:hover {cursor:pointer; opacity:0.8;}
 
     
 
@@ -75,8 +75,9 @@ section {width:100%; height:27200px; margin:0 auto; background-color:#fff; }
   .choice2 {width:100%; height:360px; margin:15px auto; border-top:1px solid #ddd; position:relative; background-color:none;}
 
   .together_box {width: 250px; height: 250px; padding:0px; margin:22px 7px; display:inline-block;}
-  .together_box img:hover {opacity: 0.7;}
+  .together_box img:hover {opacity: 0.7; cursor:pointer}
   .together_box h2 {font-family:"S-CoreDream-3Light"; font-size:14px; color:#000; text-align:center; margin:12px 0;}
+  .together_box h2:hover {cursor:pointer;}
   .together_box p {font-family:"S-CoreDream-4Regular"; font-size:13px; color:#949494; text-align:center; letter-spacing: 1px; margin:-8px 0;}
 
   
@@ -98,7 +99,7 @@ section {width:100%; height:27200px; margin:0 auto; background-color:#fff; }
 
 
 
-  #review {width:1190px; height:400px; margin:70px auto; font-family:"S-CoreDream-4Regular";}
+  #review {width:1190px; height:820px; margin:70px auto; font-family:"S-CoreDream-4Regular";}
   #review ul {width:1190px; height: 80px; margin:40px auto 0px;}
   #review ul > li {width: 297px; height:50px; background-color:#eee;
   float:left; text-align:center; padding:15px 0 0 0px; border:1px solid #ddd;
@@ -118,21 +119,29 @@ section {width:100%; height:27200px; margin:0 auto; background-color:#fff; }
   #review > #detail_tableblx > table {display:inline-block; margin:0px auto; border-top:1px solid #333;
   line-height:50px; width:1190px; font-size:13px; color:#333;}
 
-  .review_box {width:1190px; height:200px; margin:0 auto; border-top:1px solid #ddd; border-bottom:1px solid #ddd; position:relative;}
+  .review_box {width:1190px; height:200px; margin:0 auto; border-top:1px solid #ddd;  position:relative; clear:left;}
+  .review_box:hover {cursor:pointer;}
+  #review h2 {font-size:18px; float:left; margin:0px 0 13px 0px; }
   .review_box h1 {font-size: 22px; color:#ffcc00; display: block; float:left; font-family: "YanoljaYacheR"; margin-top:30px;}
-  .review_box h3 {font-size: 15px; color:#000;   display: inline-block;font-family:"S-CoreDream-4Regular"; margin:0 0 0 10px; margin-top:32px;}
+  .review_box h3 {font-size: 16px; color:#000;   display: inline-block;font-family:"S-CoreDream-4Regular"; margin:0 0 0 10px; margin-top:32px;}
   .review_box p {width:50%; height:60px; margin-top:10px; font-size: 14px; color:#000; font-family:"S-CoreDream-4Regular";  }
   .review_box h5 {font-size: 14px; color:#5c5b5b; font-family:"S-CoreDream-3Light";   float:left; margin-top:-17px;}
   .review_box p:nth-of-type(2) {width:50%; height:20px; font-size: 12px; color:#e66456;  font-family: "S-CoreDream-5Medium";  margin-top:20px; clear:both;}
-  .review_box p:nth-of-type(2):hover {color:#bbb9b9; cursor:pointer;}
- .review_box h4 {font-size: 13px; color:#000; 
-  font-family:"S-CoreDream-3Light"; line-height:20px; margin-top:0px; position:absolute; bottom:0; right:5px;}
+  .review_box p:nth-of-type(2):hover {color:#000; cursor:pointer;}
+  .review_box h4 {font-size: 13px; color:#000; 
+  font-family:"S-CoreDream-3Light"; line-height:20px; margin-top:0px; position:absolute; bottom:30px; right:0px;}
+  .review_box img {display:inline-block; width:120px; height:123px;position:absolute; top:0; right:0; margin-top:20px;}
+  
+  #review button {font-family:"S-CoreDream-4Regular"; float:right; margin:25px 0px; 
+    width:100px; height:35px; color:#fff; font-size:12px; background-color:#333; border:1px solid #ddd;}
+  #review button:hover {opacity:0.5;cursor:pointer;}
  
 
- .review_box img {display:inline-block; width:120px; height:123px;position:absolute; top:0; right:0; margin-top:20px;}
+
+
 
   
-  #inquiry{width:1190px; height:400px; margin:70px auto; font-family:"S-CoreDream-4Regular";}
+  #inquiry{width:1190px; height:480px; margin:70px auto; font-family:"S-CoreDream-4Regular";}
   #inquiryg ul {width:1190px; height: 80px; margin:40px auto 0px;}
   #inquiry ul > li {width: 297px; height:50px; background-color:#eee;
   float:left; text-align:center; padding:15px 0 0 0px; border:1px solid #ddd;
@@ -147,20 +156,19 @@ section {width:100%; height:27200px; margin:0 auto; background-color:#fff; }
 #inquiry_tablebox table td:nth-of-type(2) {width:80px; text-align:center; border-bottom:1px solid #eee;}
 #inquiry_tablebox table td:nth-of-type(3) {width:120px; text-align:center; border-bottom:1px solid #eee;}
 #inquiry_tablebox table td:last-of-type {width:150px; text-align:center; border-bottom:1px solid #eee;}
-#inquiry button {font-family:"S-CoreDream-4Regular"; margin-top:10px;}
-#inquiry button:hover {opacity:0.5;}
-#inquiry_h3 {font-size:18px; float:left; margin:20px 0 13px 0px; }
+#inquiry button {font-family:"S-CoreDream-4Regular"; float:right; margin:25px 0px; 
+  width:100px; height:35px; color:#fff; font-size:12px; background-color:#333; border:1px solid #ddd;}
+#inquiry button:hover {opacity:0.5; cursor:pointer;}
+#inquiry_h3 {font-size:18px; float:left; margin:27px 0 13px 0px; }
+#inquiry_tablebox:hover {cursor:pointer;}
 #inquiry > #inquiry_tablebox {width:1190px; height:450px; margin:0 auto; text-align:center;}
-#inquiry > #inquiry_tablebox > button {float:right; margin:25px 0px; 
-width:120px; height:30px; color:#fff; font-size:12px; background-color:#333; border:1px solid #ddd;}
-#inquiry > #inquiry_tablebox > button:hover {cursor:pointer;}
 #inquiry > #inquiry_tablebox > table {display:inline-block; margin:0px 
 auto; border-top:1px solid #333; line-height:50px; width:1190px; font-size:13px; color:#333;}
 
 
 #shipping{width:1190px; height:400px; margin:70px auto; font-family:"S-CoreDream-4Regular";}
-#shipping ul {width:1190px; height: 80px; margin:40px auto 0px;}
-#shipping ul > li {width: 297px; height:50px; background-color:#eee;
+#shipping> ul {width:1190px; height: 80px; margin:40px auto 0px;}
+#shipping> ul > li {width: 297px; height:50px; background-color:#eee;
 float:left; text-align:center; padding:15px 0 0 0px; border:1px solid #ddd;
 border-bottom:1px solid #000; font-size:13px;}
 #shipping> ul > li:last-child {background-color:#fff; border:1px solid
@@ -170,8 +178,10 @@ border-bottom:1px solid #000; font-size:13px;}
 #shipping_tablebox {width:1190px; height: 700px; margin:0 auto; display:block; border-top:none solid#ddd; }
 #shipping_tablebox > h4 {font-family:"S-CoreDream-4Regular"; font-size:18px; margin:0px 0 0 0px;}
 #shipping_tablebox > p {font-family:"S-CoreDream-4Regular"; font-size:16px; margin:4px 0 0 0px;}
-#shipping_tablebox > table {display:block; margin:10px 0 0 0px; line-height:50px;}
-#shipping_tablebox > table th {font-size:13px; text-align:left; width:1190px; background-color:#f1f1f1; padding:0 0 0 20px; text-align: center;}
-#shipping_tablebox > table td {font-size:13px; text-align:left; width:1190px; background-color:#f9f9f9; padding:0 0 0 20px;}
+#shipping_tablebox > table {display:block; margin:10px 0 0 0px; }
+#shipping_tablebox > table th {font-size:13px; width:250px; background-color:#f1f1f1; padding:0 0 0 0px; text-align:center;}
+#shipping_tablebox > table td {font-size:13px; text-align:left; width:940px; background-color:#f9f9f9; padding:23px; line-height: 27px;}
+
+
 
 

@@ -134,6 +134,7 @@
 
 
          .best_box .c1 { font-size: 14px; color: #000; display: block; float:left; margin-top: -60px; font-family: "S-CoreDream-5Medium"; margin:-70px -60px -20px 7px; }
+         .best_box .c1:hover {cursor:pointer;}
          .best_box .c2 { font-size: 25px; color: #e8665e; display: block; float:left; margin-top:-50px;
          font-family: "S-CoreDream-5Medium"; margin:-49px 90px 0 7px; }
          .best_box .c3 { font-size: 13px; color: #636262; display: block; float:left; font-family: "S-CoreDream-5Medium"; border-top:1px solid #c6c5c5; padding-top:5px;margin:0 7px; width:94%;}
